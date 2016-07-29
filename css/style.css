@@ -1,0 +1,29 @@
+.breakfast {
+	background-color: #FFEC72;
+	height: 100vh;
+}
+.lunch {
+	background-color: #FF7C24;
+	height: 100vh;
+}
+.drinks {
+	background-color: #8DD1FF;
+	height: 100vh;
+}
+.salad {
+	background-color: #7BEA91;
+	height: 100vh;
+}
+.fullscreen {
+	position:absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	z-index: 100;
+}
+
+.navbar {
+    z-index: 10000;
+    margin-bottom: 0px;
+}
