@@ -1,38 +1,54 @@
-html { 
-    height: 100%;
-}
-body { 
-    height: 100%;
-}
-.row {
-	height: 100%;
-}
-.breakfast {
-	background-color: #FFEC72;
-	height: 100%;
-}
-.lunch {
-	background-color: #FF7C24;
-	height: 100%;
-}
-.drinks {
-	background-color: #8DD1FF;
-	height: 100%;
-}
-.salad {
-	background-color: #7BEA91;
-	height: 100%;
-}
-.fullscreen {
-	position:absolute;
-	left: 0;
+.wrapper {
+	left: 0px;
+	padding: 0px;
 	width: 100%;
-	z-index: 100;
-}
-.menu-body {
 	height: 100%;
+	position: absolute;
 }
+
+.breakfast {
+	width: 25%;
+	height: 100%;
+	cursor: pointer;
+	background: #fdd146;
+}
+
+.lunch {
+	width: 25%;
+	height: 100%;
+	cursor: pointer;
+	background: #ff6a6a;
+}
+
+.drinks {
+	width: 25%;
+	height: 100%;
+	cursor: pointer;
+	background: #5fc1ff;
+	
+}
+
+.salad {
+	width: 25%;
+	height: 100%;
+	cursor: pointer;
+	background: #87ffb4;
+}
+
+div {
+    float: left;
+}
+
+
+.active {
+    height: 100%;
+    width: 100%;
+}
+
+.hide {
+    display: none;
+}
+
 .navbar {
-    z-index: 10000;
-    margin-bottom: 0px;
+	margin-bottom: 0px;
 }
