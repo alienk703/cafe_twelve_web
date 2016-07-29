@@ -2,6 +2,20 @@ h1 {
 	font-size: 20em;
 }
 
+.top_bg {
+	background-image: url(../icons/bg_2.jpg);
+	background-repeat: no-repeat;
+	height: 100%;
+	background-size: cover;
+}
+.top_bg_wrapper {
+	max-height: 720px;
+}
+.top_bg article  {
+	color: #ebebeb;
+	text-align: center;
+	margin-top: 20%;
+}
 .category {
 	padding: 0px 0px 10px 25px;
 }
