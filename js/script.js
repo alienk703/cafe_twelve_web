@@ -10,7 +10,7 @@ $(document).ready(function()
       $(this).animate({'width':'100%'},{
         duration:300,
         step:function(gox){
-          var width = gox < 100 ? (100 - gox) / 3 : 0;
+          var width = gox < 100 ? (100 - gox) / 4 : 0;
                   $(this).siblings().css('width', width + "%"); 
           }
         })
