@@ -18,13 +18,16 @@ ul, li {
 	text-align: left;
 	list-style: none
 }
+b {
+	padding-right: 15px;
+}
 .nav a {
 	font-family: raleway;
 	color: #000000;
 }
 .navbar-twelve {
-	background-color: transparent;
-	border-color: transparent;
+	background-color: rgba(255,255,255,0.3);
+	border-color: #ebebeb;
 	    width: 100%;
     position: fixed;
 }
@@ -178,7 +181,7 @@ ul, li {
 	font-weight: bold;
 }
 .pad-bot {
-	padding-bottom:300px;
+	padding-bottom:150px;
 }
 #contact {
 	background: url(../images/lenfant_map.jpg);
